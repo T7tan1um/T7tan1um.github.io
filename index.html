@@ -1,77 +1,95 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title> Frank Sun</title>
-
-  <link rel="stylesheet" type="text/css" href="static/css/styles.css">
-  <link href="static/css/css2.css" rel="stylesheet">
-
-  <style media="screen">
-    body {
-      background-image: url(static/image/120garden.JPG);
-      background-repeat: no-repeat;
-      background-size: 100% auto;
-      background-attachment: fixed;
-    }
-  </style>
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{margin: 20px auto; width: 800px;}
+        .top{display: flex; border-bottom: 1px solid #000; padding: 20px;}
+        .top img{margin:0px 20px; border-radius: 50%;}
+        .center{border-bottom: 1px solid #000;padding: 10px;}
+        .center1{border-bottom: 1px solid #000;padding: 20px;}
+        .end{display: flex;}
+        .end div{margin: 20px;display: flex; flex-direction:column;}
+    </style>
 </head>
-
 <body>
+    <div class="body">
+        <div class="top">
+            <img src="./img/touxiang.jpg" width="200px">
+            <div>
+                <h1>Frank Sun</h1>
+                <p>MSc Entrepreneurship & Innovation Management</p>
+                <p><a href="#.html">Contact Me</a></p>
+            </div>
+            
+        </div>
+        <div class="center">
+            <h1>Education</h1>
+            <ul>
+                <li>Master's degree in Entrepreneurship&Innovation Management</li>
+                <li>University of Surrey - Guildford</li>
+                <li>September 2022 to Present</li>
+            </ul>
+        </div>
+        <div class="center1">
+            <h1>Work Experience</h1>
+            <table style="text-align: center;">
+                <tr>
+                    <td width="33%"><strong>Role</strong></td>
+                    <td  width="33%"><strong>Company</strong></td>
+                    <td  width="33%"><strong>Dates</strong></td>
+                </tr>
+                <tr>
+                    <td>Vice President</td>
+                    <td>Chengdu Akogale Technology Company - Chengdu</td>
+                    <td>August 2020 to September 2021</td>
+                </tr>
+                <tr>
+                    <td>Waiter</td>
+                    <td>Qianweiwang Hotpot - Chengdu</td>
+                    <td>June 2019 to September 2019</td>
+                </tr>
+            </table>
 
-  <div class="top-container">
-    <h1> Frank Sun</h1>
-    </h2>
-  </div>
-
-  <div class="middle-container">
-    <div class="profile">
-
-      <img src="./img/touxiang.jpg" class="top-pic" alt="Faizal-img" width="150px">
-      <h2>Hello</h2>
-      <p> I am a master's student at the University of Surrey, where I am enrolled in the program for management of entrepreneurship and innovation. Welcome to my Internet world.</p>
+            <h1>Skills</h1>
+            <table style="text-align: center;">
+                <tr>
+                    <td width="25%"><strong>Customer service</strong></td>
+                    <td  width="25%"><strong>★★★★★</strong></td>
+                    <td  width="25%"><strong>Food preparation</strong></td>
+                    <td  width="25%"><strong>★★★★★</strong></td>
+                </tr>
+                <tr>
+                    <td width="25%"><strong>Serving Experience</strong></td>
+                    <td  width="25%"><strong>★★★★★</strong></td>
+                    <td  width="25%"><strong>Cooking</strong></td>
+                    <td  width="25%"><strong>★★★★★</strong></td>
+                </tr>
+                <tr>
+                    <td width="25%"><strong>Bartending (1 year)</strong></td>
+                    <td  width="25%"><strong>★★★★</strong></td>
+                    <td  width="25%"><strong>Microsoft Powerpoint</strong></td>
+                    <td  width="25%"><strong>★★★★</strong></td>
+                </tr>
+            </table>
+        </div>
+        <div class="end">
+            <div>
+                <img src="./img/ins.jpg" width="50px">
+                <a href="Linkedln">Linkedln</a>
+            </div>
+            <div>
+                <img src="./img/face.jpg" width="50px">
+                <a href="Facebook">Facebook</a>
+            </div>
+            <div>
+                <img src="./img/tweitt.jpg" width="50px">
+                <a href="Twitter">Twitter</a>
+            </div>
+        </div>
     </div>
-
-    <hr>
-
-    <div class="skills">
-      <h2>professional experience</h2>
-      <div class="skill-row">
-        <img class="pubspeak" src="static/picture/ppp.jpeg" alt="ppp">
-        <h3>Vice Manager, Chengdu Akogale Technology Company</h3>
-        <p>Managed a team of 10 employees to ensure the successful completion of projects.Coordinated with clients to understand their needs and provided customized solutions tomeet their requirements.Developed and implemented processes and procedures to streamline project workflows,resulting in increased efficiency and improved project outcomes.</p>
-      </div>
-      <div class="skill-row">
-        <img class="walk" src="static/picture/120garden.JPG" alt="walk">
-        <h3>Waiter, Qianweiwang Hotpot</h3>
-        <p>Provided excellent customer service by greeting customers, taking orders, and ensuring
-          their satisfaction.Prepared and cooked food according to established standards and procedures.Maintained a clean and organized work area, ensuring that customers had a pleasant andhygienic dining experience.</p>
-      </div>
-    </div>
-    <hr>
-    <div class="contact-me">
-
-
-    </div>
-  </div>
-
-
-  <div class="bottom-container">
-    <h2>CONNECT WITH ME</h2>
-    
-
-    <a class="footer-link" href="https://space.bilibili.com/7089716">
-      <img border="0" alt="youtube" src="static/picture/youtubeicon.png" width="50" height="50">
-    </a>
-
-    <div class="copyright">
-      @2023 Frank Sun
-    </div>
-
-  </div>
-
 </body>
-
 </html>
